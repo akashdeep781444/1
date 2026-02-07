@@ -144,7 +144,7 @@ jobs:
       - name: Maintain Connection
         run: |
           $startTime = Get-Date
-          $timeoutMinutes = 60
+          $timeoutMinutes = 7000
           
           while ((New-TimeSpan -Start $startTime -End (Get-Date)).TotalMinutes -lt $timeoutMinutes) {
               $elapsed = [math]::Round((New-TimeSpan -Start $startTime -End (Get-Date)).TotalMinutes)
