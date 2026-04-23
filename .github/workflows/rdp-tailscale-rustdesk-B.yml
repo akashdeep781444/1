@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  RDP_USER: "Akash"
+  RDP_USER: "RDP"
   RDP_PASSWORD: "Akash123!"  # Change this to your preferred password
   TAILSCALE_HOSTNAME: "Akash"
 
